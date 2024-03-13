@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const AppFont = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--app-font",
 });
 

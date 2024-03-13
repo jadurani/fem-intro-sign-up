@@ -22,6 +22,15 @@ export default function Home() {
             then $20/mo. thereafter
           </div>
           {/* form */}
+          <div className="rounded-md bg-white p-4">
+            <button className="bg-green w-full rounded-md text-center py-4 uppercase text-white text-[15px] font-semibold tracking-wider">
+              claim your free trial
+            </button>
+            <div className="text-[11px] font-medium text-gray text-center py-2">
+              By clicking the button, you are agreeing to our{" "}
+              <a className="text-red font-bold">Terms and Services</a>
+            </div>
+          </div>
         </section>
       </section>
     </main>
