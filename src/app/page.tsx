@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen flex items-center justify-center bg-red">
+    <main className="h-screen w-screen flex items-center justify-center bg-desktop-pattern bg-cover bg-center">
       <section className="flex flex-col desktop:flex-row m-8 container max-w-6xl gap-4">
         <section className="text-white desktop:basis-1/2">
           <h1 className="font-bold text-[28px] desktop:text-[50px] text-center desktop:text-left desktop:leading-tight">
@@ -23,7 +23,9 @@ export default function Home() {
           </div>
           {/* form */}
           <div className="rounded-md bg-white p-4">
-            <form></form>
+            <form>
+              <input placeholder="" type="" />
+            </form>
 
             <button className="bg-green w-full rounded-md text-center py-4 uppercase text-white text-[15px] font-semibold tracking-wider">
               claim your free trial

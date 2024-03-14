@@ -31,9 +31,7 @@ const config: Config = {
         gray: "#BAB7D4"
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'desktop-pattern': "url('/images/bg-intro-desktop.png')",
       },
       fontFamily: {
         body: ["var(--app-font)", ...fontFamily.sans],

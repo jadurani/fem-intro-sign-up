@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={AppFont.className}>{children}</body>
+      <body className={`bg-red ${AppFont.className}`}>{children}</body>
     </html>
   );
 }
